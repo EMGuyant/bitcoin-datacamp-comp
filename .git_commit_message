@@ -1,0 +1,34 @@
+# Please using the following guidelines to format all commit messages:
+#
+#   <type>(<scope>): <subject>
+#   <EMPTY LINE>
+#   <body>
+#   <EMPTY LINE>
+#   <footer>
+#
+#
+# Note:
+#    - Header is a single line with a max of 65 characters which 
+#contains a succinct description of the change made. Contains a 
+#type, an optional scope, and #a subject.
+#       <type>: describes the kind of change that was made, and 
+#should be one of the follow categories
+#           * feat (feature)
+#           * fix (bug fix)
+#           * docs (documentation)
+#           * style (formatting)
+#           * refactor
+#           * test (addition of missing tests)
+#           * chore (maintenance)
+#       <scope>: specifying the place of the change
+#       <subject>: a short description
+#           * imperative, present tense language: "change" not 
+#"changed"/"changes"
+#           * do not capitalize first letter
+#           * no ending "."
+#   - Body should include the motivation for the change and the 
+#contrast this with previous behavior and must be phrased in 
+#imperative present tense.
+#   - Footer should contain any information about Breaking Changes 
+#and is also the place to reference GitHub issues that the commit 
+#closes 
